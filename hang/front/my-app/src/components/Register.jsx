@@ -10,7 +10,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post('http://localhost:5000/api/auth/register', { username, password });
+      await axios.post('https://hangman-game-9xxf.onrender.com/api/auth/register', { username, password });
       alert('User registered');
     } catch (err) {
       console.error(err);

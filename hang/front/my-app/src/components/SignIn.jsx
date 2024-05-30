@@ -10,7 +10,7 @@ const SignIn = ({ setToken }) => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/login', { username, password });
+      const res = await axios.post('https://hangman-game-9xxf.onrender.com/api/auth/login', { username, password });
       setToken(res.data.token);
     } catch (err) {
       console.error(err);
