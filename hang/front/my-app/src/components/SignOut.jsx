@@ -1,5 +1,6 @@
 // src/components/SignOut.js
 import React from 'react';
+import './Signout.css';
 
 const SignOut = ({ setToken }) => {
   const handleSignOut = () => {

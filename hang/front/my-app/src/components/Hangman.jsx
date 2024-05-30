@@ -31,7 +31,7 @@ function Hangman() {
       <p>Remaining guesses: {maxWrongGuesses - wrongGuesses.length}</p>
       {wrongGuesses.length >= maxWrongGuesses && <p>You lose! The word was "{word}"</p>}
       {word.split('').every(letter => guesses.includes(letter)) && <p>You win!</p>}
-      <button className='game1' onClick={() => window.location.reload()}>Play Again</button>
+      <button className='game11' onClick={() => window.location.reload()}>Play Again</button>
       
       
     </div>

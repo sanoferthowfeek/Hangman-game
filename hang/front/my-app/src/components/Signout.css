@@ -1,0 +1,20 @@
+.game1{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    color: white;
+    background-color: #a32f59;
+    border-bottom: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    position:absolute;
+  top: 30px;
+  right: 15px;
+  border-bottom: 3px solid black;
+
+}
+
+.game1:hover{
+    color:white;
+    background-color: red;
+}

@@ -31,12 +31,12 @@ const App = () => {
   return (
     <div className="app1">
       
-       
-      
       <main>
         {token ? <Game /> : <Register />}
         {token ? <SignOut setToken={setToken} /> : <SignIn setToken={setToken} />}
+
       </main>
+     
 
     </div>
   );
