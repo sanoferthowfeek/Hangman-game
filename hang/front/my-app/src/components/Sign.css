@@ -1,0 +1,15 @@
+/* .input1{
+    background-color: brown;
+    
+} */
+.input1{
+    display: grid;
+            gap: 10px;
+            width: 25%;
+            
+            padding: 20px;
+            text-align: center;
+margin-left: 450px;
+           
+           
+}

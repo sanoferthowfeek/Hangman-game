@@ -1,0 +1,14 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  background: linear-gradient(to right, #cc4fb9, #feb47b);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app1{
+  background-image: url('https://unsplash.com/photos/pink-roses-in-close-up-photography-4wvg6YY5VmA');
+ 
+}
